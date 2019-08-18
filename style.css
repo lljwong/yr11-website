@@ -46,28 +46,18 @@ body {
 
 .opening {
     width: 100%;
-    height: 955px;
+    height: 752px;
     position: relative;
     overflow: hidden;
     background-image: linear-gradient(#FFE373, #FC9C54, #FD5E53, #4B3D60, #152852);
     background-size: cover;
 }
 
-.opening:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 200px;
-    z-index: 11;
-    background: linear-gradient(green, black, cyan, blue, red, orange);
-}
-
 .opening #scrolldown {
     position: absolute;
-    width: 100%; 
-    margin-top: 2   %;
-    
+    width: 100%;
+    margin-top: 2 %;
+
 }
 
 .opening #fg {
@@ -95,25 +85,41 @@ div {
 
 }
 
-div:nth-child(2) {
-    background-image: url(Images/own/IMG_3251.JPG);
-    background-size: cover;
+.caption {
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    display: inline-block;
+    border-radius: 25px;
+}
 }
 
-div:nth-child(3) {
-    height: 400px;
+#box1 {
+    background-image: url(Images/own/IMG_3251.JPG);
+    background-size: cover;
+
+}
+
+
+div:nth-child(4) {
+    height: 500px;
     background-image: url(Images/own/IMG_3260.JPG);
     background-attachment: fixed;
     background-size: cover;
 }
 
-div:nth-child(4) {
+div:nth-child(5) {
     background-image: url(Images/own/IMG_3263.JPG);
     background-size: cover;
 
 }
 
-div:nth-child(5) {
+div:nth-child(6) {
     background-image: url(Images/own/IMG_3269.JPG);
     background-size: cover;
 }
