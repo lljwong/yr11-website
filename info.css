@@ -46,8 +46,8 @@ li a:hover {
 body {
     margin: 0px;
     padding: 0px
-
 }
+
 .zoom {
     width: 100%;
     height: 1000px;
@@ -87,7 +87,7 @@ body {
     left: 20%;
     width: 60%;
     margin-top: 40%;
-    
+
 }
 
 div {
@@ -98,4 +98,60 @@ div {
     font-family: sans-serif;
     width: 100%;
     height: 100vh;
+}
+
+div:nth-child(3) {
+    height: 700px;
+    background-image: url(Images/own/IMG_3251.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+div:nth-child(4) {
+    background-image: url(Images/own/IMG_3258.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#nz {
+    height: 500px;
+    margin-right: 1000px;
+}
+
+.caption {
+    top: 1070px;
+    left: 800px;
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.do {
+    top: 1700px;
+    left: 800px;
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: aquamarine;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.model {
+    top: 1700px;
+    right: 400px;
+    height 600px;
+    position: absolute;
 }

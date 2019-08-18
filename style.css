@@ -97,13 +97,6 @@ div {
     display: inline-block;
     border-radius: 25px;
 }
-}
-
-#box1 {
-    background-image: url(Images/own/IMG_3251.JPG);
-    background-size: cover;
-
-}
 
 
 div:nth-child(4) {
@@ -119,7 +112,13 @@ div:nth-child(5) {
 
 }
 
-div:nth-child(6) {
-    background-image: url(Images/own/IMG_3269.JPG);
-    background-size: cover;
+.footer {
+    height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: (0, 0, 0, 0.4);
+}
+
+.footer #p{
+    color: white;
 }
