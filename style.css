@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    position: fixed;
+    height: 40px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    z-index: 100;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px
+}
+
+
+.opening {
+    width: 100%;
+    height: 955px;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#FFE373, #FC9C54, #FD5E53, #4B3D60, #152852);
+    background-size: cover;
+}
+
+.opening:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 11;
+    background: linear-gradient(green, black, cyan, blue, red, orange);
+}
+
+.opening #scrolldown {
+    position: absolute;
+    width: 100%; 
+    margin-top: 2   %;
+    
+}
+
+.opening #fg {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    margin-top: 300px;
+}
+
+.opening #text {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    margin-top: 550px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+
+}
+
+div:nth-child(2) {
+    background-image: url(Images/own/IMG_3251.JPG);
+    background-size: cover;
+}
+
+div:nth-child(3) {
+    height: 400px;
+    background-image: url(Images/own/IMG_3260.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div:nth-child(4) {
+    background-image: url(Images/own/IMG_3263.JPG);
+    background-size: cover;
+
+}
+
+div:nth-child(5) {
+    background-image: url(Images/own/IMG_3269.JPG);
+    background-size: cover;
+}
