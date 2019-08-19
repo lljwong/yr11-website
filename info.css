@@ -129,7 +129,7 @@ div:nth-child(4) {
     font-family: sans-serif;
     margin: 20px;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: white;
     display: inline-block;
     border-radius: 25px;
 }
@@ -144,7 +144,7 @@ div:nth-child(4) {
     font-family: sans-serif;
     margin: 20px;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: white;
     display: inline-block;
     border-radius: 25px;
 }
@@ -154,4 +154,15 @@ div:nth-child(4) {
     right: 400px;
     height 600px;
     position: absolute;
+}
+
+.footer {
+    height: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: (0, 0, 0, 0.4);
+}
+
+.footer #p{
+    color: white;
 }

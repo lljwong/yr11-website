@@ -38,42 +38,6 @@ li a:hover {
     color: white;
 }
 
-body {
-    margin: 0px;
-    padding: 0px
-}
-
-
-.opening {
-    width: 100%;
-    height: 752px;
-    position: relative;
-    overflow: hidden;
-    background-image: linear-gradient(#FFE373, #FC9C54, #FD5E53, #4B3D60, #152852);
-    background-size: cover;
-}
-
-.opening #scrolldown {
-    position: absolute;
-    width: 100%;
-    margin-top: 2 %;
-
-}
-
-.opening #fg {
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-    margin-top: 300px;
-}
-
-.opening #text {
-    position: absolute;
-    right: 0;
-    width: 100%;
-    margin-top: 580px;
-}
-
 div {
     display: flex;
     align-items: center;
@@ -85,31 +49,35 @@ div {
 
 }
 
+body {
+    margin: 0px;
+    padding: 0px
+}
+
+.opening {
+    width: 100%;
+    height: 752px;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#80bfff, #004d99);
+    background-size: cover;
+}
+
 .caption {
-    width: 550px;
-    height: 400px;
+    top: 150px;
+    left: 350px;
+    width: 800px;
+    height: 550px;
     position: absolute;
     font-weight: bold;
+    font-size: 20px;
     font-family: sans-serif;
     margin: 20px;
     padding: 10px;
     background-color: white;
+    opacity: 0.5;
     display: inline-block;
     border-radius: 25px;
-}
-
-
-div:nth-child(4) {
-    height: 500px;
-    background-image: url(Images/own/IMG_3260.JPG);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-div:nth-child(5) {
-    background-image: url(Images/own/IMG_3263.JPG);
-    background-size: cover;
-
 }
 
 .footer {
